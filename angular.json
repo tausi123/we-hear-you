@@ -31,11 +31,16 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/scss/coin-slider.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/cufon-yui.js",
+              "src/assets/js/cufon-georgia.js",
+              "src/assets/js/script.js",
+              "src/assets/js/coin-slider.min.js"
             ]
           },
           "configurations": {

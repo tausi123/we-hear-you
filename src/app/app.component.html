@@ -1,5 +1,11 @@
-<app-layout-header />
+<div class="main">
+    <app-layout-header />
 
-<router-outlet></router-outlet>
-
-<app-layout-footer />
+    <div class="content">
+        <div class="content_resize">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    
+    <app-layout-footer />
+</div>
